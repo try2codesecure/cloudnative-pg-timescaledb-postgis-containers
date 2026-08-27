@@ -6,17 +6,17 @@ metadata:
     images.cnpg.io/family: timescaledb-postgis
     images.cnpg.io/type: standard
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260824'
+    images.cnpg.io/date: '20260827'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 14
-    image: ghcr.io/try2codesecure/timescaledb-postgis:14.24-3.6.4-202608241018-standard-bookworm@sha256:75198abed68e34a7ee683e3821d37805eb0cc1c235784070188063c8f986a419
+    image: ghcr.io/try2codesecure/timescaledb-postgis:14.24-3.6.4-202608271733-standard-bookworm@sha256:5391c540a5bf6a77b9b7a76cd843bf6b87ba1765d49efdd052eedbc6a9767454
   - major: 15
-    image: ghcr.io/try2codesecure/timescaledb-postgis:15.19-3.6.4-202608241017-standard-bookworm@sha256:3ca67babc757f16fad1ee5499904da64811b616142d519ce6d47bfac5ca128eb
+    image: ghcr.io/try2codesecure/timescaledb-postgis:15.19-3.6.4-202608271733-standard-bookworm@sha256:700c1781fda00f1570a26fe1a23a8727c75fcf8dc47db2fa4b23ca6d30fb50b6
   - major: 16
-    image: ghcr.io/try2codesecure/timescaledb-postgis:16.15-3.6.4-202608241017-standard-bookworm@sha256:7a700b8272fc2c4afad3fe97dea16db6615c5ac9316d4c224c239dab0d55dfbd
+    image: ghcr.io/try2codesecure/timescaledb-postgis:16.15-3.6.4-202608271733-standard-bookworm@sha256:83c5383def6d681ed6a0e30acecb17895b6b28c08ce9b6e51aa706e415fa7840
   - major: 17
-    image: ghcr.io/try2codesecure/timescaledb-postgis:17.11-3.6.4-202608241018-standard-bookworm@sha256:fafdb75e21fe88c5b85e46addeb59fa57f51d3db8b4f2d47858517bbd653b17d
+    image: ghcr.io/try2codesecure/timescaledb-postgis:17.11-3.6.4-202608271733-standard-bookworm@sha256:55a15b41965e0822a96ad11e67f1de735bda9d0b0d8aa2c4916fa2a16d9b75e0
   - major: 18
-    image: ghcr.io/try2codesecure/timescaledb-postgis:18.6-3.6.4-202608241018-standard-bookworm@sha256:8f3bfb072ae7779e69a07a38014f48b5a2be72600974261884e3c91307d1886a
+    image: ghcr.io/try2codesecure/timescaledb-postgis:18.6-3.6.4-202608271733-standard-bookworm@sha256:d3cc95a438ea10b60e3c98fe22084cabcbfb9c573d425d50bec14e53fda697e1
