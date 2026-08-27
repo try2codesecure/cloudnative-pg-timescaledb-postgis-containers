@@ -1,9 +1,9 @@
 # TimescaleDB + PostGIS containers for CloudNativePG
 
-[![Bake Images](https://github.com/imusmanmalik/cloudnative-pg-timescaledb-postgis-containers/actions/workflows/bake.yml/badge.svg)](https://github.com/imusmanmalik/cloudnative-pg-timescaledb-postgis-containers/actions/workflows/bake.yml)
-[![Validate](https://github.com/imusmanmalik/cloudnative-pg-timescaledb-postgis-containers/actions/workflows/validate.yml/badge.svg)](https://github.com/imusmanmalik/cloudnative-pg-timescaledb-postgis-containers/actions/workflows/validate.yml)
+[![Bake Images](https://github.com/try2codesecure/cloudnative-pg-timescaledb-postgis-containers/actions/workflows/bake.yml/badge.svg)](https://github.com/try2codesecure/cloudnative-pg-timescaledb-postgis-containers/actions/workflows/bake.yml)
+[![Validate](https://github.com/try2codesecure/cloudnative-pg-timescaledb-postgis-containers/actions/workflows/validate.yml/badge.svg)](https://github.com/try2codesecure/cloudnative-pg-timescaledb-postgis-containers/actions/workflows/validate.yml)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
-[![GHCR](https://img.shields.io/badge/ghcr.io-timescaledb--postgis-2496ED?logo=docker&logoColor=white)](https://github.com/imusmanmalik/cloudnative-pg-timescaledb-postgis-containers/pkgs/container/timescaledb-postgis)
+[![GHCR](https://img.shields.io/badge/ghcr.io-timescaledb--postgis-2496ED?logo=docker&logoColor=white)](https://github.com/try2codesecure/cloudnative-pg-timescaledb-postgis-containers/pkgs/container/timescaledb-postgis)
 
 Operand images for [CloudNativePG](https://cloudnative-pg.io) that add **TimescaleDB**,
 **TimescaleDB Toolkit**, **PostGIS**, and **pgRouting** on top of the official CloudNativePG
@@ -43,7 +43,7 @@ Already provided by the CloudNativePG base: `pgaudit`, `pgvector`, `pg_failover_
 
 ## Image matrix
 
-Image name: `ghcr.io/imusmanmalik/timescaledb-postgis`
+Image name: `ghcr.io/try2codesecure/timescaledb-postgis`
 
 | PostgreSQL | bookworm | trixie |
 |:----------:|:--------:|:------:|
@@ -84,7 +84,7 @@ metadata:
   name: cluster-example
 spec:
   instances: 1
-  imageName: ghcr.io/imusmanmalik/timescaledb-postgis:17.10-3.6.4-standard-trixie
+  imageName: ghcr.io/try2codesecure/timescaledb-postgis:17.10-3.6.4-standard-trixie
   postgresql:
     shared_preload_libraries:
       - timescaledb
@@ -159,7 +159,7 @@ versions:
 
 ```bash
 EXPECTED_TIMESCALEDB=2.28.3 EXPECTED_TOOLKIT=1.23.0 EXPECTED_POSTGIS=3.6.4 \
-  test/smoke.sh ghcr.io/imusmanmalik/timescaledb-postgis:17.10-3.6.4-standard-trixie
+  test/smoke.sh ghcr.io/try2codesecure/timescaledb-postgis:17.10-3.6.4-standard-trixie
 ```
 
 The same smoke test is the required PR gate (`validate.yml`); `e2e.yml` runs it against a live

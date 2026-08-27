@@ -32,7 +32,7 @@ jobs:
         uses: cloudnative-pg/postgres-containers/.github/actions/generate-catalogs@main
         with:
           output-dir: image-catalogs/
-          registry: ghcr.io/imusmanmalik/timescaledb-postgis
+          registry: ghcr.io/try2codesecure/timescaledb-postgis
           family: timescaledb-postgis
           distributions: ${{ steps.get_env.outputs.distributions }}
           image-types: ${{ steps.get_env.outputs.image_types }}
@@ -57,7 +57,7 @@ jobs:
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           add: 'image-catalogs/*.yaml'
-          author_name: imusmanmalik
+          author_name: try2codesecure
           author_email: usmanmalik@engineer.com
           message: 'chore: update imageCatalogs'
 

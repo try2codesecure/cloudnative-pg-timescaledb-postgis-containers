@@ -10,13 +10,13 @@
 
 These files are generated, not hand-edited. The `Update Catalogs` workflow
 (`.github/workflows/catalogs.yml`) regenerates them from the digests published to
-`ghcr.io/imusmanmalik/timescaledb-postgis` after each scheduled/production bake, then
+`ghcr.io/try2codesecure/timescaledb-postgis` after each scheduled/production bake, then
 commits the result. They will appear here after the first such run.
 
 Apply a catalog with:
 
 ```bash
-kubectl apply -f https://raw.githubusercontent.com/imusmanmalik/cloudnative-pg-timescaledb-postgis-containers/main/image-catalogs/timescaledb-postgis-standard-trixie.yaml
+kubectl apply -f https://raw.githubusercontent.com/try2codesecure/cloudnative-pg-timescaledb-postgis-containers/main/image-catalogs/timescaledb-postgis-standard-trixie.yaml
 ```
 
 then reference it from a `Cluster`:
