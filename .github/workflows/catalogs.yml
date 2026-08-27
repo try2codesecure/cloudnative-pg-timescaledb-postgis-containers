@@ -58,7 +58,7 @@ jobs:
         with:
           add: 'image-catalogs/*.yaml'
           author_name: try2codesecure
-          author_email: usmanmalik@engineer.com
+          author_email: git@cloudrocket.at
           message: 'chore: update imageCatalogs'
 
       - name: Enable "include administrators" branch protection
