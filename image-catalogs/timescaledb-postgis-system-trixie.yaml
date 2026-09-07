@@ -6,15 +6,15 @@ metadata:
     images.cnpg.io/family: timescaledb-postgis
     images.cnpg.io/type: system
     images.cnpg.io/os: trixie
-    images.cnpg.io/date: '20260827'
+    images.cnpg.io/date: '20260907'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 15
-    image: ghcr.io/try2codesecure/timescaledb-postgis:15.19-3.6.4-202608271733-system-trixie@sha256:e709fe4c89eedddd680c4f8d4763ca53203dc157784257d100f5bbeec315abc2
+    image: ghcr.io/try2codesecure/timescaledb-postgis:15.19-3.6.4-202609071530-system-trixie@sha256:508fff97b87eff0e79cd5d09169525a1dd1f39f008057fd6f94ea7b2e5730861
   - major: 16
-    image: ghcr.io/try2codesecure/timescaledb-postgis:16.15-3.6.4-202608271733-system-trixie@sha256:bd1b8c7eac1ea4c68db35de7b9b16c2df7015893592ef44963d43ee7e02cb205
+    image: ghcr.io/try2codesecure/timescaledb-postgis:16.15-3.6.4-202609071530-system-trixie@sha256:cea25310363f6bd5aa91418e30c436a26b9aef5b250fea740c82468bfd66e70a
   - major: 17
-    image: ghcr.io/try2codesecure/timescaledb-postgis:17.11-3.6.4-202608271733-system-trixie@sha256:49ba12baf0b0af197e9862c4bc06fab9b7223f8b7b099c52633d6852d8f56ce1
+    image: ghcr.io/try2codesecure/timescaledb-postgis:17.11-3.6.4-202609071530-system-trixie@sha256:f94fd0fc144802f6c8124cc49ea61d10b7aac655551331b09029ad1b09d757f7
   - major: 18
-    image: ghcr.io/try2codesecure/timescaledb-postgis:18.6-3.6.4-202608271733-system-trixie@sha256:594b0f018db32b21d083e7b1881ae2ecc9aee02364142016dfbbcfaae001ece9
+    image: ghcr.io/try2codesecure/timescaledb-postgis:18.6-3.6.4-202609071530-system-trixie@sha256:7674b3342d752b151c4bc3d80386dd63761346f32ef9b05908cd3ecacd781ba1
